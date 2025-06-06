@@ -1,0 +1,147 @@
+{
+    "id": "35327ab6-2b0b-4374-aeb4-1695ae152636",
+    "name": "EC Base Application",
+    "publisher": "Alterna",
+    "brief": "EC Base Application",
+    "description": "EC Base Application",
+    "version": "23.1.23.0",
+    "privacyStatement": "https://www.alternanet.it/privacy-policy-eng/",
+    "EULA": "https://www.alternanet.it/license-agreement/",
+    "help": "https://www.alternanet.it/microsoft-dynamics-365-business-central/",
+    "contextSensitiveHelpUrl": "https://www.alternanet.it/microsoft-dynamics-365-business-central/",
+    "url": "https://www.alternanet.it",
+    "logo": "resources/Logo.png",
+    "screenshots": [],
+    "application": "23.0.0.0",
+    "platform": "23.0.0.0",
+    "idRanges": [
+        {
+            "from": 50000,
+            "to": 50399
+        },
+        {
+            "from": 80000,
+            "to": 80399
+        },
+        {
+            "from": 90000,
+            "to": 90399
+        }
+    ],
+    "dependencies": [
+        {
+            "id": "83cfde37-494c-436d-b1fe-8d222c2e6159",
+            "name": "Advanced Tools Suite",
+            "publisher": "Theta",
+            "version": "0.2.0.0"
+        },
+        {
+            "id": "68c61772-e2ad-4db2-b877-dff589fc15f2",
+            "name": "Advanced Warehouse Pack",
+            "publisher": "Theta",
+            "version": "0.2.0.0"
+        },
+        {
+            "id": "6418bffb-0315-46d9-bb8b-96df70717dbe",
+            "name": "Direct Print Solutions",
+            "publisher": "Theta",
+            "version": "22.1.4.14"
+        },
+        {
+            "id": "8622dc68-3675-4683-bc7d-46ff4b39f8c1",
+            "name": "Advanced Trade",
+            "publisher": "Alterna",
+            "version": "0.8.0.0"
+        },
+        {
+            "id": "272c72bf-850b-4da5-869d-275499b71ba9",
+            "name": "Advanced Discounts",
+            "publisher": "Alterna",
+            "version": "1.8.0.0"
+        },
+        {
+            "id": "203e0548-db77-4ff5-bf37-98e4a23aa4c5",
+            "name": "Electronic VAT Settlement for Italy",
+            "version": "1.6.6.0",
+            "publisher": "Alterna"
+        },
+        {
+            "id": "85daff34-6539-4016-a483-a6d9b471faba",
+            "name": "Advanced Finance Reporting for Italy",
+            "publisher": "Alterna",
+            "version": "1.12.31.0"
+        },
+        {
+            "id": "e26cf7bb-ade2-43aa-8ad4-54b93c5861c0",
+            "name": "Electronic Invoicing for Italy",
+            "publisher": "Alterna",
+            "version": "2.19.43.0"
+        },
+        {
+            "id": "e78119c6-0f03-4470-9af4-c0b6fbd83ce5",
+            "name": "Intrastat Declaration for Italy",
+            "publisher": "Alterna",
+            "version": "2.1.36.0"
+        },
+        {
+            "id": "3ff38524-bb39-438e-bc07-9b8216417b85",
+            "name": "Alterna Application Library",
+            "publisher": "Alterna",
+            "version": "1.32.53.0"
+        },
+        {
+            "id": "3590ebda-c24e-4a68-93df-5db543fa9781",
+            "name": "Alterna Utility Library",
+            "publisher": "Alterna",
+            "version": "1.19.47.0"
+        },
+        {
+            "id": "b77fad0b-cdb2-4e29-8c83-7684bd0db5a4",
+            "name": "Free of Charge Management for Italy",
+            "publisher": "Alterna",
+            "version": "1.5.18.0"
+        },
+        {
+            "id": "5c6d2d8d-e279-4f92-9cc6-8f421078bde5",
+            "name": "Extended Manufacturing Suite for Italy",
+            "publisher": "Alterna",
+            "version": "1.18.53.0"
+        },
+        {
+            "id": "05fc1b8d-de85-4af7-b477-738385f2ff4c",
+            "name": "Commissions Management",
+            "publisher": "Alterna",
+            "version": "1.17.57.0"
+        },
+        {
+            "id": "7ccd77b9-7ca4-4c25-b39f-0772762c104a",
+            "name": "Commissions Management for Italy",
+            "publisher": "Alterna",
+            "version": "1.9.13.0"
+        },
+        {
+            "id": "b6356334-74c5-41ac-8463-c05a01d1be76",
+            "name": "DF Connector",
+            "publisher": "Alterna",
+            "version": "1.2.9.0"
+        },
+        {
+            "id": "dd2f1d74-535e-439c-94bb-0c93bc3dc098",
+            "name": "Advanced General Ledger",
+            "publisher": "Alterna",
+            "version": "1.24.48.0"
+        }
+    ],
+    "runtime": "12.0",
+    "target": "Cloud",
+    "features": [
+        "TranslationFile",
+        "NoImplicitWith",
+        "NoPromotedActionProperties"
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    }
+}

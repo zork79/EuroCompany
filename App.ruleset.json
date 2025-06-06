@@ -1,0 +1,61 @@
+{
+    "name": "App ruleset",
+    "description": "These rules must be respected by all the AL code written within the company.",    
+    "rules": [
+        {
+            "id": "AA0218",
+            "action": "None",
+            "justification": "Tool Tip not mandatory"
+        },
+        {
+            "id": "AA0214",
+            "action": "None",
+            "justification": "Record can be used with no modify"
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Place holders not used in translations"
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "Not used"
+        },
+        {
+            "id": "AA0005",
+            "action": "None",
+            "justification": "Begin End warning are not important"
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Comment in label are not important"
+        },
+        {
+            "id": "AA0139",
+            "action": "None",
+            "justification": "Possible Text overflow handled manually"
+        },
+        {
+            "id": "AA0074",
+            "action": "None",
+            "justification": "Suffix on TextConst are not important"
+        },
+        {
+            "id": "AW0009",
+            "action": "None",
+            "justification": "Abilitazione utilizzo campi di tipo BLOB in page"   
+        },         
+        {
+            "id": "AA0231",
+            "action": "None",
+            "justification": "String concatenation in Error Method"
+        },
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "Disattivazione warning per il formato del nome file"
+        }                  
+    ]
+}

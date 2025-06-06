@@ -1,0 +1,56 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.backgroundCodeAnalysis": false,
+    "al.codeAnalyzers": [
+        "${PerTenantExtensionCop}",
+        "${CodeCop}",
+        "${UICop}"
+        //,"${AppSourceCop}"
+    ],
+    "al.enableCodeActions": true,
+    "alOutline.namespacesSortOrder": [
+        "Eurocompany",
+        "Microsoft"
+    ],
+    "editor.codeLens": false,
+    "al.ruleSetPath": "./App.ruleset.json",
+    "CRS.OnSaveAlFileAction": "Reorganize",
+    "CRS.FileNamePattern": "<ObjectTypeShortPascalCase>.<ObjectNameShort>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectTypeShortPascalCase>.<ObjectNameShort>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectTypeShortPascalCase>.<ObjectNameShort>.al",
+    "CRS.ObjectNamePrefix": "",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.ReorganizeByNamespace": true,
+    /*
+    "editor.codeActionsOnSave": {
+        "source.fixAll.al": true
+    },
+    
+    "alOutline.codeActionsOnSave": [
+        "SortTableFields",
+        "SortProperties",
+        "SortReportColumns",
+        //,"SortVariables"
+    ],
+    */
+    "alOutline.codeCleanupActions": [
+        "FixIdentifiersCase",
+        "FixKeywordsCase",
+        "AddMissingParentheses",
+        "AddApplicationAreas",
+        "AddDataClassifications",
+        "SortTableFields",
+        "SortProperties",
+        "MakeFlowFieldsReadOnly",
+        "SortUsings",
+        "RemoveRedundantAppAreas",
+        "RemoveRedundantDataClassification"
+    ],
+    "alOutline.idReservationProvider": "ALObjectIdNinja",
+    "editor.formatOnSave": true,
+    "ATS.UseObjectFilePathAsNamespace": true,
+    "cSpell.words": [
+        "Coan"
+    ],
+    "DockerRun.DisableAutoGenerateConfig": true
+}

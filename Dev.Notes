@@ -1,0 +1,60 @@
+
+--------- Card Page Ext Fields  ---------
+
+    group(ecCustomAttributes)
+    {
+        Caption = 'Custom Attributes';
+    }
+
+--------- Card Page Ext Fields  ---------
+
+
+--------- Page Ext Actions ---------
+    actions
+    {
+        addlast(processing)
+        {
+            group(ecCustomFeaturesActGrp)
+            {
+                Caption = 'Custom Features';
+                Image = AddToHome;
+            }
+        }
+    }
+--------- Page Ext Actions ---------
+
+--------- Namespaces ---------
+Namespace attualmente utilizzati per l'app
+
+namespace EuroCompany.BaseApp;
+
+namespace EuroCompany.BaseApp.Setup;
+
+namespace EuroCompany.BaseApp.Manufacturing;
+namespace EuroCompany.BaseApp.Manufacturing.Capacity;
+namespace EuroCompany.BaseApp.Manufacturing.Document;
+namespace EuroCompany.BaseApp.Manufacturing.Planning;
+namespace EuroCompany.BaseApp.Manufacturing.Journal;
+namespace EuroCompany.BaseApp.Manufacturing.ProductionBOM;
+namespace EuroCompany.BaseApp.Manufacturing.Routing;
+namespace EuroCompany.BaseApp.Manufacturing.Reports;
+
+namespace EuroCompany.BaseApp.Inventory.Reservation;
+namespace EuroCompany.BaseApp.Inventory.Item;
+namespace EuroCompany.BaseApp.Inventory.Tracking;
+namespace EuroCompany.BaseApp.Inventory.Planning;
+
+EuroCompany.BaseApp.Item.Catalog
+
+namespace EuroCompany.BaseApp.Warehouse.Document;
+namespace EuroCompany.BaseApp.Warehouse.Structure;
+
+namespace EuroCompany.BaseApp.Sales.Customer;
+namespace EuroCompany.BaseApp.Sales.Document;
+
+namespace EuroCompany.BaseApp.Purchases.Document;
+
+EuroCompany.BaseApp.Finance.Dimension
+
+namespace EuroCompany.BaseApp.Security.AccessControl;
+--------- Namespaces ---------
