@@ -1,0 +1,93 @@
+{
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50399,
+      "description": "From 50000 to 50399"
+    },
+    {
+      "from": 80000,
+      "to": 80399,
+      "description": "From 80000 to 80399"
+    },
+    {
+      "from": 90000,
+      "to": 90399,
+      "description": "From 90000 to 90399"
+    }
+  ],
+  "objectRanges": {
+    "table": [
+      {
+        "from": 50000,
+        "to": 50399,
+        "description": "Custom Table"
+      },
+      {
+        "from": 80000,
+        "to": 80399,
+        "description": "Free range"
+      },
+      {
+        "from": 90000,
+        "to": 90399,
+        "description": "Temporary Table"
+      }
+    ],
+    "page": [
+      {
+        "from": 50000,
+        "to": 50299,
+        "description": "Custom Page"
+      },
+      {
+        "from": 80000,
+        "to": 80399,
+        "description": "Utility range"
+      },
+      {
+        "from": 50300,
+        "to": 50399,
+        "description": "Role Centers"
+      }
+    ],
+    "pageextension": [
+      {
+        "from": 80000,
+        "to": 80399,
+        "description": "From 80000 to 80399"
+      },
+      {
+        "from": 90000,
+        "to": 90399,
+        "description": "From 90000 to 90399"
+      }
+    ],
+    "tableextension": [
+      {
+        "from": 80000,
+        "to": 80399,
+        "description": "From 80000 to 80399"
+      },
+      {
+        "from": 90000,
+        "to": 90399,
+        "description": "From 90000 to 90399"
+      }
+    ],
+    "reportextension": [
+      {
+        "from": 80000,
+        "to": 80399,
+        "description": "From 80000 to 80399"
+      },
+      {
+        "from": 90000,
+        "to": 90399,
+        "description": "From 90000 to 90399"
+      }
+    ],
+  },
+  // This is the authorization key for all back-end communication. DO NOT MODIFY OR DELETE THIS VALUE!
+  "authKey": "GjHjMesd6iEhOvNynhcVYsVFa+eQtwjMrLikKHhFaBw="
+}
